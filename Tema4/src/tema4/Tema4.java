@@ -15,13 +15,16 @@ public class Tema4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         
+         System.out.println("yeahh");
         char nombres[][]={{'a','p','l','u','d','i','o'},{'n','a','e','n','o','s','s'},{'a','n','o','o','s','a','o'} };
         for (int filas=0;filas<nombres.length;filas++) {
             for (int columnas=0;columnas<nombres[filas].length;columnas++) {
                 System.out.print(nombres[filas][columnas]);
             }
-            System.out.println("");
+            System.out.println("trie");
         }
+        System.out.println("due");
+         System.out.println("uno");
     }
+   
 }
